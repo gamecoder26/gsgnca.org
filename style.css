@@ -1939,6 +1939,9 @@ Blocks Styles
 	Header Styles
 =====================*/
 .junior__header__top {
+
+background: #fcfcfc;
+background: linear-gradient(90deg,rgba(252, 252, 252, 1) 21%, rgba(87, 199, 133, 1) 84%, rgba(237, 221, 83, 1) 100%);
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -1951,11 +1954,11 @@ Blocks Styles
   align-items: center;
   height: 60px; }
   .junior__header__top .jun__header__top__left .top__address li i {
-    color: #89d700;
+    color: #FF9900;
     padding-right: 7px; }
   .junior__header__top .jun__header__top__left .top__address a {
-    color: #777777;
-    font-size: 14px;
+    color: #FF0000; 
+    font-size: 14px; font-weight:bold;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
@@ -1964,18 +1967,18 @@ Blocks Styles
     .junior__header__top .jun__header__top__left .top__address a:hover {
       color: #89d700; }
   .junior__header__top .jun__header__top__right .accounting li a {
-    color: #777777;
-    font-size: 14px;
+    color: #FF3300;
+    font-size: 16px;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
     .junior__header__top .jun__header__top__right .accounting li a:hover {
-      color: #89d700; }
+      color: #000000; }
 
 .top__address li + li {
-  margin-left: 20px;
+  margin-left: 20px;   
   padding-left: 20px;
   position: relative; }
 
